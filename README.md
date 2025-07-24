@@ -29,7 +29,7 @@ Follow these steps to set up and deploy the AWS Data Lake for NYC Taxi Trip Data
     * The visual editor in Glue Studio allows for a drag-and-drop interface to define these transformations, including custom code, schema changes, and joins.
     * Store the processed (transformed) data in a different S3 prefix (e.g., a "processed" bucket or folder).
 
-   [Glue ETL Job Flow](architecture/glue_etl_job_flow.png) 
+   [Glue ETL Job Flow](https://github.com/Ayushs10/AWS_Serverless_datalake/blob/main/flow.png) 
 
 4.  **Set Up AWS Glue Crawler For Transformed Data**
     * Configure another Glue Crawler to scan the S3 location where your transformed data is stored (the S3 prefix from the previous step).
@@ -44,7 +44,7 @@ Follow these steps to set up and deploy the AWS Data Lake for NYC Taxi Trip Data
     * Connect Amazon QuickSight to Athena. Choose the Athena database and the tables/views containing your transformed data.
     * Build interactive visual dashboards to explore insights from the NYC Taxi Trip Data, such as trip patterns, popular routes, and flow between boroughs. 
 
-  ![QuickSight Taxi Trips Flow Dashboard](quicksight-dashboards/quicksight_taxi_flow.png) 
+  ![QuickSight Taxi Trips Flow Dashboard](https://github.com/Ayushs10/AWS_Serverless_datalake/blob/main/quicksight.png) 
 
 ## ✅ Key Features
 
